@@ -1,0 +1,5 @@
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\Common Layer\bin\Debug\Common Layer.dll
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\Common Layer\bin\Debug\Common Layer.pdb
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\Common Layer\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\Common Layer\obj\Debug\Common Layer.dll
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\Common Layer\obj\Debug\Common Layer.pdb

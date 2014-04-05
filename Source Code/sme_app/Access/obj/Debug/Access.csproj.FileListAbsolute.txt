@@ -1,0 +1,9 @@
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\Access\bin\Debug\Access.dll.config
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\Access\bin\Debug\Access.dll
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\Access\bin\Debug\Access.pdb
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\Access\bin\Debug\Common Layer.dll
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\Access\bin\Debug\SubSonic.Core.dll
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\Access\bin\Debug\Common Layer.pdb
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\Access\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\Access\obj\Debug\Access.dll
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\Access\obj\Debug\Access.pdb

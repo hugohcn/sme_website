@@ -1,0 +1,112 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs" Inherits="sme_app.Principal" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title></title>
+    <link href="UIStyles/reset.css" rel="stylesheet" type="text/css" />
+    <link href="UIStyles/text.css" rel="stylesheet" type="text/css" />
+    <link href="UIStyles/960.css" rel="stylesheet" type="text/css" />
+    <link href="UIStyles/principal.css" rel="stylesheet" type="text/css" />
+    <link href="UIStyles/nivo-slider.css" rel="stylesheet" type="text/css" media="screen" />
+    
+    <script src="UIScripts/jquery.js" type="text/javascript"></script>
+    <script src="UIScripts/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script src="UIScripts/principal.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- Top Bar -->
+        <div id="topBar">
+            <!-- Container Barra localizada no Topo da Página -->
+            <div class="container_12">
+                <!-- Grid com 12 colunas -->
+                <div id="gridTopo">
+                    <div class="grid_4">
+                        <span id="dtExtensa">
+                          <% 
+                            string dtExtensa = DateTime.Now.ToLongDateString();
+                            dtExtensa = dtExtensa[0].ToString().ToUpper() + dtExtensa.Substring(1,dtExtensa.Length-1);
+                          %>
+                          
+                          <%= dtExtensa %>
+                        </span>               
+                    </div>
+                    <div class="grid_8">
+                        <div id="blocoLinks">
+                           <a href="http://administracao.oficinasme.com.br" target="_blank" title="Área Administrativa">Área Administrativa</a>
+                           &nbsp;
+                           |
+                           &nbsp;
+                           <a href="http://webmail.oficinasme.com.br" target="_blank" title="Webmail Corporativo">Webmail Corporativo</a>
+                        </div>
+                    </div>
+                </div>                    
+            </div>
+        </div>
+        
+        <!-- Container Principal -->
+        <div class="container_12">
+            <!-- Grid com 12 colunas para inserção do subtopo e menu do site -->
+            <div class="grid_12" id="subTopo">
+                <a href="principal.aspx" title="Oficina SME" id="logotipo"></a> 
+                <ul id="menu">
+                    <li><a href="principal.aspx">Página Inicial</a></li> 
+                    &nbsp; | &nbsp;                   
+                    <li><a href="empresa.aspx">A Empresa</a></li> 
+                    &nbsp; | &nbsp;
+                    <li><a href="estrutura.aspx">Estrutura Organizacional</a></li>                    
+                    &nbsp; | &nbsp;
+                    <li><a href="servicos.aspx">Nossos Serviços</a></li>
+                    &nbsp; | &nbsp;
+                    <li><a href="profissionais.aspx">Profissionais Modelos</a></li>
+                    &nbsp; | &nbsp;
+                    <li><a href="contato.aspx">Contato</a></li>
+                </ul>
+                <br />                                           
+            </div>  
+        </div>  
+        <div class="container_12">
+            <div class="grid_12" style="margin-top: 20px; top: 0px; left: 0px;">            
+                <div id="slider" class="nivoSlider">
+                    <!-- repeater -->
+                    <asp:Repeater ID="rptBanners" runat="server">
+                        <ItemTemplate>
+                            <img src='<%# "http://administracao.oficinasme.com.br/" + Eval("path").ToString() + Eval("nome_arquivo").ToString() %>' alt="" />        
+                        </ItemTemplate>
+                    </asp:Repeater>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container_12">
+            <div class="grid_12" id="pageContentContainer">
+                <div id="content_fix" style="width: 900px; margin: 0 auto;">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                
+                    </asp:ContentPlaceHolder> 
+                    <!--
+                        <div style="height: 70px;">
+                            &nbsp;
+                        </div>                               
+                    -->
+                </div>
+            </div>
+        </div> 
+        
+        <div class="container_12">
+            <div class="grid_12" id="rodape">
+                <span>&copy Copyright 2011 - Todos os direitos reservados.</span>                               
+                <span style="display: block; float: right;">Desenvolvimento: <a href="http://www.hnascimento.com.br" target="_blank">Hugo Nascimento</a></span>  
+            </div>
+        </div>
+    </form>
+</body>
+</html>

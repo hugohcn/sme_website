@@ -1,0 +1,19 @@
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\sme_app\bin\sme_app.dll
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\sme_app\bin\sme_app.pdb
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\sme_app\bin\Business.dll
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\sme_app\bin\Common Layer.dll
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\sme_app\bin\DevExpress.Data.v9.3.dll
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\sme_app\bin\DevExpress.Web.ASPxEditors.v9.3.dll
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\sme_app\bin\DevExpress.Web.v9.3.dll
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\sme_app\bin\SubSonic.Core.dll
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\sme_app\bin\Access.dll
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\sme_app\bin\DevExpress.Web.ASPxEditors.v9.3.xml
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\sme_app\bin\DevExpress.Data.v9.3.xml
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\sme_app\bin\Business.pdb
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\sme_app\bin\Common Layer.pdb
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\sme_app\bin\DevExpress.Web.v9.3.xml
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\sme_app\bin\Access.pdb
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\sme_app\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\sme_app\obj\Debug\sme_app.dll.licenses
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\sme_app\obj\Debug\sme_app.dll
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\sme_app\obj\Debug\sme_app.pdb

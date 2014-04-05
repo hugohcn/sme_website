@@ -1,0 +1,306 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{80005BDD-369F-4509-8AC6-294D237C3DAE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>sme_app</RootNamespace>
+    <AssemblyName>sme_app</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxEditors.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Web.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SubSonic.Core, Version=3.0.0.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Resources\Codificação\SubSonic.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="contato.aspx.cs">
+      <DependentUpon>contato.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contato.aspx.designer.cs">
+      <DependentUpon>contato.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dica.aspx.cs">
+      <DependentUpon>dica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dica.aspx.designer.cs">
+      <DependentUpon>dica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dicas.aspx.cs">
+      <DependentUpon>dicas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dicas.aspx.designer.cs">
+      <DependentUpon>dicas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="empresa.aspx.cs">
+      <DependentUpon>empresa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="empresa.aspx.designer.cs">
+      <DependentUpon>empresa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="estrutura.aspx.cs">
+      <DependentUpon>estrutura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="estrutura.aspx.designer.cs">
+      <DependentUpon>estrutura.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="missao.aspx.cs">
+      <DependentUpon>missao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="missao.aspx.designer.cs">
+      <DependentUpon>missao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="noticia.aspx.cs">
+      <DependentUpon>noticia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="noticia.aspx.designer.cs">
+      <DependentUpon>noticia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="noticias.aspx.cs">
+      <DependentUpon>noticias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="noticias.aspx.designer.cs">
+      <DependentUpon>noticias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="principal.aspx.cs">
+      <DependentUpon>principal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="principal.aspx.designer.cs">
+      <DependentUpon>principal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.Master.cs">
+      <DependentUpon>Principal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Principal.Master.designer.cs">
+      <DependentUpon>Principal.Master</DependentUpon>
+    </Compile>
+    <Compile Include="profissionais.aspx.cs">
+      <DependentUpon>profissionais.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="profissionais.aspx.designer.cs">
+      <DependentUpon>profissionais.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="servicos.aspx.cs">
+      <DependentUpon>servicos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="servicos.aspx.designer.cs">
+      <DependentUpon>servicos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="valores.aspx.cs">
+      <DependentUpon>valores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="valores.aspx.designer.cs">
+      <DependentUpon>valores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="visao.aspx.cs">
+      <DependentUpon>visao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="visao.aspx.designer.cs">
+      <DependentUpon>visao.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="contato.aspx" />
+    <Content Include="dica.aspx" />
+    <Content Include="dicas.aspx" />
+    <Content Include="empresa.aspx" />
+    <Content Include="estrutura.aspx" />
+    <Content Include="missao.aspx" />
+    <Content Include="noticia.aspx" />
+    <Content Include="noticias.aspx" />
+    <Content Include="principal.aspx" />
+    <Content Include="Principal.Master" />
+    <Content Include="profissionais.aspx" />
+    <Content Include="servicos.aspx" />
+    <Content Include="UIImages\Banners\banner_1.jpg" />
+    <Content Include="UIImages\Banners\banner_2.jpg" />
+    <Content Include="UIImages\banner_bosch_inovacao.jpg" />
+    <Content Include="UIImages\banner_bosch_inovacao.png" />
+    <Content Include="UIImages\banner_nossa_localizacao.jpg" />
+    <Content Include="UIImages\banner_nossa_localizacao_contato.jpg" />
+    <Content Include="UIImages\banner_responsabilidade_social.jpg" />
+    <Content Include="UIImages\BasicModal\basic\x.png" />
+    <Content Include="UIImages\bg_pagina_master.jpg" />
+    <Content Include="UIImages\bg_subtopo_pag.jpg" />
+    <Content Include="UIImages\bloco_contato_servicos_1.jpg" />
+    <Content Include="UIImages\bloco_contato_servicos_2.jpg" />
+    <Content Include="UIImages\bloco_contato_servicos_3.jpg" />
+    <Content Include="UIImages\bloco_contato_servicos_4.jpg" />
+    <Content Include="UIImages\btnEmail.png" />
+    <Content Include="UIImages\btnEnviar.jpg" />
+    <Content Include="UIImages\btnLimpar.jpg" />
+    <Content Include="UIImages\btnLogar.jpg" />
+    <Content Include="UIImages\btnTelephone.png" />
+    <Content Include="UIImages\bullet.gif" />
+    <Content Include="UIImages\button_banescard.jpg" />
+    <Content Include="UIImages\button_facebook.jpg" />
+    <Content Include="UIImages\button_mastercard.jpg" />
+    <Content Include="UIImages\button_orkut.jpg" />
+    <Content Include="UIImages\button_twitter.jpg" />
+    <Content Include="UIImages\button_visa.jpg" />
+    <Content Include="UIImages\button_youtube.jpg" />
+    <Content Include="UIImages\close.gif" />
+    <Content Include="UIImages\closelabel.gif" />
+    <Content Include="UIImages\donate-button.gif" />
+    <Content Include="UIImages\download-icon.gif" />
+    <Content Include="UIImages\Fotos\Empresa\0001.jpg" />
+    <Content Include="UIImages\Fotos\Empresa\0002.jpg" />
+    <Content Include="UIImages\Fotos\Empresa\0003.jpg" />
+    <Content Include="UIImages\Fotos\Estrutura Organizacional\foto_estrutura_1.jpg" />
+    <Content Include="UIImages\image-1.jpg" />
+    <Content Include="UIImages\img_album_fotos_1.jpg" />
+    <Content Include="UIImages\img_album_fotos_2.jpg" />
+    <Content Include="UIImages\img_album_fotos_3.jpg" />
+    <Content Include="UIImages\img_album_fotos_4.jpg" />
+    <Content Include="UIImages\img_empresa_1.jpg" />
+    <Content Include="UIImages\img_empresa_2.jpg" />
+    <Content Include="UIImages\img_estrutura_organizacional_1.jpg" />
+    <Content Include="UIImages\img_estrutura_organizacional_2.jpg" />
+    <Content Include="UIImages\img_estrutura_organizacional_3.jpg" />
+    <Content Include="UIImages\img_estrutura_organizacional_4.jpg" />
+    <Content Include="UIImages\img_estrutura_organizacional_5.jpg" />
+    <Content Include="UIImages\img_prof_modelos_1.jpg" />
+    <Content Include="UIImages\loading.gif" />
+    <Content Include="UIImages\logotipo_sme_pag.png" />
+    <Content Include="UIImages\nextlabel.gif" />
+    <Content Include="UIImages\prevlabel.gif" />
+    <Content Include="UIImages\sme_logo_bg_servicos.png" />
+    <Content Include="UIImages\thumb-1.jpg" />
+    <Content Include="UIImages\top_page_bar.png" />
+    <Content Include="UIScripts\builder.js" />
+    <Content Include="UIScripts\effects.js" />
+    <Content Include="UIScripts\jquery.js" />
+    <Content Include="UIScripts\jquery.nivo.slider.pack.js" />
+    <Content Include="UIScripts\jquery.simplemodal.js" />
+    <Content Include="UIScripts\lightbox-web.js" />
+    <Content Include="UIScripts\lightbox.js" />
+    <Content Include="UIScripts\principal.js" />
+    <Content Include="UIScripts\prototype.js" />
+    <Content Include="UIScripts\scriptaculous.js" />
+    <Content Include="UIStyles\960.css" />
+    <Content Include="UIStyles\basic.css" />
+    <Content Include="UIStyles\basic_ie.css" />
+    <Content Include="UIStyles\lightbox.css" />
+    <Content Include="UIStyles\nivo-slider.css" />
+    <Content Include="UIStyles\principal.css" />
+    <Content Include="UIStyles\reset.css" />
+    <Content Include="UIStyles\text.css" />
+    <Content Include="valores.aspx" />
+    <Content Include="visao.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Access\Access.csproj">
+      <Project>{3B37CCDB-63B0-45E2-97A0-6C8CD2F8BD06}</Project>
+      <Name>Access</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Business\Business.csproj">
+      <Project>{604BE7CE-7477-4918-83C3-066992F3E707}</Project>
+      <Name>Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common Layer\Common.csproj">
+      <Project>{25E8D3A3-530B-4F3E-B7DC-F1E6C21C979B}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2673</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

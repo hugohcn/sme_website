@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs"
+    Inherits="AreaAdministrativa.Principal" %>
+
+<%@ Register Assembly="DevExpress.Web.v9.3, Version=9.3.2.0, Culture=neutral, PublicKeyToken=8d332da86fe888ab"
+    Namespace="DevExpress.Web.ASPxMenu" TagPrefix="dx" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="UIStyles/lightbox.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div style="width: 100%; height: 110px;">
+            <img alt="Oficina SME" src="UIImages/sme-logo.jpg" style="margin: 20px 0 0 15px;" />
+        </div>
+        <div id="menu" style="width: 100%; border-bottom: 1px solid #c3c3c3; border-top: 1px solid #c3c3c3;">
+            <dx:ASPxMenu ID="ASPxMenu1" runat="server" AutoSeparators="RootOnly" CssFilePath="~/App_Themes/Aqua/{0}/styles.css"
+                CssPostfix="Aqua" GutterImageSpacing="7px" ItemSpacing="0px" OnItemClick="ASPxMenu1_ItemClick"
+                SeparatorColor="#AECAF0" SeparatorHeight="100%" SeparatorWidth="1px" ShowPopOutImages="True"
+                SpriteCssFilePath="~/App_Themes/Aqua/{0}/sprite.css">
+                <RootItemSubMenuOffset FirstItemX="-1" FirstItemY="-1" X="-1" Y="-1" />
+                <Items>
+                    <dx:MenuItem NavigateUrl="~/Default.aspx" Text="Página Inicial">
+                    </dx:MenuItem>
+                    <dx:MenuItem NavigateUrl="~/ManterBannerSiteForm.aspx" Text="Banners do Site">
+                    </dx:MenuItem>
+                    <dx:MenuItem Text="Cadastro de Dicas" NavigateUrl="~/ManterDicasForm.aspx">
+                    </dx:MenuItem>
+                    <dx:MenuItem Text="Cadastro de Notícias" 
+                        NavigateUrl="~/ManterNoticiasForm.aspx">
+                    </dx:MenuItem>
+                    <dx:MenuItem Text="Páginas do Site">
+                        <Items>
+                            <dx:MenuItem Text="A Empresa" NavigateUrl="~/ManterPaginaEmpresaForm.aspx">
+                            </dx:MenuItem>
+                            <dx:MenuItem Text="Nossa Missão" 
+                                NavigateUrl="~/ManterPaginaNossaMissaoForm.aspx">
+                            </dx:MenuItem>
+                            <dx:MenuItem Text="Visão" NavigateUrl="~/ManterPaginaVisaoForm.aspx">
+                            </dx:MenuItem>
+                            <dx:MenuItem Text="Valores" NavigateUrl="~/ManterPaginaValoresForm.aspx">
+                            </dx:MenuItem>
+                            <dx:MenuItem Text="Estrutura Organizacional" 
+                                NavigateUrl="~/ManterPaginaEstruturaOrganizacionalForm.aspx">
+                            </dx:MenuItem>
+                            <dx:MenuItem Text="Nossos Serviços" 
+                                NavigateUrl="~/ManterPaginaNossosServicosForm.aspx">
+                            </dx:MenuItem>
+                            <dx:MenuItem Text="Profissionais Modelos" 
+                                NavigateUrl="~/ManterPaginaProfissionaisModelos.aspx">
+                            </dx:MenuItem>
+                        </Items>
+                    </dx:MenuItem>
+                    <dx:MenuItem Text="Configurações do Site" 
+                        NavigateUrl="~/ManterConfiguracoesSiteForm.aspx">
+                    </dx:MenuItem>
+                    <dx:MenuItem Name="btnSair" Text="Sair do Sistema">
+                    </dx:MenuItem>
+                </Items>
+                <ItemStyle DropDownButtonSpacing="12px" ImageSpacing="5px" PopOutImageSpacing="18px"
+                    VerticalAlign="Middle" />
+                <SubMenuStyle BackColor="#F9F9F9" GutterWidth="0px" SeparatorColor="#AECAF0" />
+                <SubMenuItemStyle ImageSpacing="7px">
+                </SubMenuItemStyle>
+                <Border BorderColor="#AECAF0" BorderStyle="None" BorderWidth="1px" />
+                <LoadingPanelImage Url="~/App_Themes/Aqua/Web/Loading.gif">
+                </LoadingPanelImage>
+            </dx:ASPxMenu>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

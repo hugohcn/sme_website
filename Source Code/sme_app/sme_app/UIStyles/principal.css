@@ -1,0 +1,101 @@
+﻿/* Folha de Estilos da Página Principal */
+body{margin: 0;border: 0;padding: 0; background-image: url("../UIImages/bg_pagina_master.jpg"); background-repeat: repeat;}
+a:link, a:hover a:visited, a:active{outline: none; text-decoration: none;}
+#topBar{width: 100%; height: 26px; margin: 1px 0 0 0; border: 0; padding: 0; background-image: url("../UIImages/top_page_bar.png"); background-repeat: repeat-x;}
+#gridTopo{height: 26px; font-size: 12px; font-family: Verdana; font-weight: normal; color: #ffffff;}
+#dtExtensa{display: block; margin: 4px 0 0 0; float: left;}
+#blocoLinks{float: right; margin: 4px 0 0 0; text-align: right;}
+#gridTopo a{font-size: 12px; font-family: Verdana; font-weight: normal; color: #ffffff; text-decoration: none;}
+#gridTopo a:hover{text-decoration: underline;}
+#gridTopo a:link, #gridTopo a:hover, #gridTopo a:visited, #gridTopo a:active{outline: none;}
+
+.nivoSlider{height: 220px;}
+
+#subTopo{height: 150px; margin-top: 15px; border: 0; padding: 0; background-image: url("../UIImages/bg_subtopo_pag.jpg"); background-repeat: repeat-y;}
+#logotipo{display: block; width: 198px; height: 69px; background-image: url("../UIImages/logotipo_sme_pag.png"); cursor: pointer; position: absolute; top: 50%; left: 50%; margin-top: -53px; margin-left: -115px; }
+#logotipo:link, #logotipo:hover, #logotipo:visited, #logotipo:active{outline: none;}
+
+#menu{margin: 0 auto; border: 0; padding: 0; width: 760px; margin-top: 115px;}
+#menu li{margin: 0; border: 0; padding: 0; display: inline;}
+#menu a{font-family: Century Gothic, Sans-Serif, Verdana; font-family: 13px; color: #333333; text-decoration: none;}
+#menu a:hover{text-decoration: underline;}
+#menu a:link, #menu a:hover, #menu a:visited, #menu a:active{outline: none;}
+
+#banner{background-image: url("../UIImages/Banners/banner_1.png"); width: 975px; height: 210px; margin: 20px 0 0 -16px; background-repeat: no-repeat;}
+
+#pageContentContainer{margin-top: 20px; background-image: url("../UIImages/bg_subtopo_pag.jpg"); background-repeat: repeat-y;}
+.titulo_bloco{display: block; width: 100%; color: #324860; font-family: Century Gothic; font-size: 13px; padding-bottom: 0px; border-bottom: 1px solid #91A5BA;}
+
+#rodape{border-top: 1px solid #91A5BA; padding-top: 1px; font-family: Verdana; color: #ffffff; font-size: 11px; margin-top: 20px;}
+#rodape a{font-family: Century Gothic; color: #ffffff; font-size: 12px; text-decoration: none;}
+#rodape a:hover{font-family: Century Gothic; color: #91A5BA; font-size: 12px; text-decoration: underline;}
+
+
+#lContent{float: left; width: 210px; margin-top: 15px;}
+#rContent{float: right; width: 657px; margin-top: 15px;}
+.subTitulo_bloco{color: #FF8D00; font-size: 11px; font-family: Verdana; display: block; margin-top: 11px;}
+.txtBoxPadrao{background-color: #ffffff; border: 1px solid #AEC3C8; margin: 4px 0 0 0;}
+#blocoLoginExec{width: 210px; margin: 15px 0 0 0;}
+.btnLogar{background-image: url("../UIImages/Banners/btnLogar.jpg"); width: 76px; height: 23px;}
+
+#leftContentRContent{width: 314px;float: left; height: 282px;}
+#rightContentRContent{float: right; width: 313px; height: 282px;}
+#blocoMidiasSociais, #blocoFormasPagamento{width: 200px; float: left; height: 80px; margin: 13px 0 0 0;}
+#blocoMidiasSociais {margin-right: 28px;}
+#blocoInovacaoQualidade{float: right; width: 200px; margin-left: 28px; height: 80px; margin: 13px 0 0 0;}
+
+.containerBottomBlocks{height: 53px; width: 100%; background-color: #ffffff; margin: 1px 0 0 0;}
+.divLinksContentBottomBlocks{margin: 0 0 0 6px; margin:0 auto;}
+.divLinksContentBottomBlocks a{display: block; float: left; margin: 14px 10px 0 0;}
+h6{color: #FF8C00; margin: 5px 0 0 0; font-size: 13px; font-weight: bold; font-family: Verdana;}
+.descNoticias{color: #647F9D; font-family: Verdana; font-size: 11px; text-align: justify; margin: 6px 0 0 0; height: 65px;}
+#lstOutrasNoticias, #lstOutrasNoticias li{margin: 0; padding: 0; margin: 5px 0 0 8px;}
+#lstOutrasNoticias li, #lstDicas li{line-height: 20px;}
+#lstDicas, #lstDicas li{margin: 0; padding: 0; margin: 5px 0 0 8px;}
+#lstOutrasNoticias li a, #lstDicas li a{color: #334150; font-size: 11px; font-family: Verdana; color: #334250; text-decoration: none;}
+#lstOutrasNoticias li a:hover, #lstDicas li a:hover{text-decoration: underline;}
+.lnkLeiaMais{color: #FF8C00; font-family: Verdana; font-size: 11px; text-decoration: none; float: right;}
+.lnkLeiaMais:hover{text-decoration: underline;}
+
+/* Página de Contato */
+#lContentContato{width: 640px; float: left; margin-top: 20px;}
+#rContentContato{width: 240px; float: right; margin-top: 20px;}
+#blocoEndereco, #blocoOutrosContatos{margin-top: 12px; width: 100%; font-family: Century Gothic; color: #EB5200; font-size: 13px; line-height: 20px;}
+#blocoOutrosContatos span{position: relative; top:5px; left: 5px;}
+#blocoMidiasSociaisContato{width: 210px; margin-top: 25px; margin-left: 27px;}
+#blocoMidiasSociaisContato a{margin-right: 10px;}
+#contatoForm{margin-top: 12px; width: 100%; font-family: Century Gothic; color: #EB5200; font-size: 13px; line-height: 20px;}
+
+/* Página A Empresa */
+#lstOutrosTopicos{margin: 15px 0 0 0; border: 0;}
+#lstOutrosTopicos li{margin: 0 0 0 10px; border: 0; padding: 0; line-height: 25px; list-style: none;}
+#lstOutrosTopicos li a{font-family: Century Gothic; font-size: 14px; color: #FF8C00; text-decoration: none;}
+#lstOutrosTopicos li a:hover{text-decoration: underline;}
+#imgBannerInovacao{margin: 15px 0 0 0;}
+#contentEmpresa{margin: 15px 0 0 0; border: 0; width: 100%; text-align: left; font-size: 12px; font-family: Verdana;}
+#contentEmpresa p{color: #334150; line-height: 18px;}
+#imgEmpresa1{float: left; margin: 0 10px 0 0;}
+#imgEmpresa2{float: right; margin: 0 0 0 10px;}
+#lblInformativo{color: #FF8C00; font-family: Verdana; font-size: 10px;}
+#contentAlbum{/*width: 638px;*/ margin: 0 auto;}
+#lstFotos{margin: 0; padding: 0; border: 0;}
+#lstFotos li{margin: 0 5px 0 5px; padding: 0; border: 0; list-style: none; display: block; float: left;}
+
+/* Estrutura Organizacional */
+#contentAlbumEstrutura{width: 685px; margin: 0 auto;}
+#lstFotosEstrutura{margin: 0; padding: 0; border: 0;}
+#lstFotosEstrutura li{margin: 0 5px 0 5px; padding: 0; border: 0; list-style: none; display: block; float: left;}
+
+/* Página de Serviços */
+#contentServicos{margin: 13px 0 0 0; border: 0; width: 100%; text-align: left; font-size: 12px; font-family: Verdana;}
+#contentServicos p{color: #334150; line-height: 18px;}
+#lstEsq{width: 339px; float: left; margin: 15px 0 0 5px;}
+#lstDir{width: 306px; float: left; margin: 15px 0 0 5px;} 
+#lstEsq li, #lstDir li{margin: 0; padding: 0; border: 0; font-family: Verdana; color: #2D557A; font-size: 12px; list-style: none; line-height: 21px;}
+#imgLogoSme{float: right; position: relative; top: -35px;}
+
+/* Página Profissionais Modelos */
+#contentProfissionaisModelos{margin: 13px 0 0 0; border: 0; width: 100%; text-align: left; font-size: 12px; font-family: Verdana;}
+#contentProfissionaisModelos p{color: #334150; line-height: 18px;}
+
+/* Página de Notícias */

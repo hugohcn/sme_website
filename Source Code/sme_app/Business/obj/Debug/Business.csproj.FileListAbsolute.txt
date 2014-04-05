@@ -1,0 +1,10 @@
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\Business\bin\Debug\Business.dll
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\Business\bin\Debug\Business.pdb
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\Business\bin\Debug\Access.dll
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\Business\bin\Debug\Common Layer.dll
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\Business\bin\Debug\SubSonic.Core.dll
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\Business\bin\Debug\Common Layer.pdb
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\Business\bin\Debug\Access.pdb
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\Business\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\Business\obj\Debug\Business.dll
+D:\Documents and Settings\Hugo Nascimento\Desktop\SME\Código\sme_app\Business\obj\Debug\Business.pdb
